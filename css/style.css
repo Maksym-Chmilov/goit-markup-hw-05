@@ -431,6 +431,9 @@ img {
 .portfolio-examples-link {
   display: block;
 }
+.portfolio-examples-link:focus .examples-top-text {
+  transform: translateY(0);
+}
 .portfolio-examples-thumb {
   position: relative;
   overflow: hidden;
